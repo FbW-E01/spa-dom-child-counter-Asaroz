@@ -1,5 +1,5 @@
-const wrapper = document.querySelector(".wrapper")
-const allchildren = document.querySelectorAll(".wrapper *")
+const wrapper = document.querySelector("#wrapper")
+
 
 console.log(wrapper.childNodes)
 const wrappChildren = wrapper.childNodes
@@ -18,9 +18,6 @@ function mostClasses(element){
         element: element[2],
         classNumber: nameArray
     }
-
-
-    
     for(child in element){
         let testarray=[]
         let classname= element[child].className
