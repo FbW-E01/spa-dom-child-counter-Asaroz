@@ -1,14 +1,16 @@
 const wrapper = document.querySelector(".wrapper")
 const allchildren = document.querySelectorAll(".wrapper *")
 
-// console.log(wrapper.childNodes)
-// const wrappChildren = wrapper.childNodes
-// for(child in wrappChildren){
-//     console.log(wrappChildren[child])
-//     console.log("___")
-// }
-// console.log(wrappChildren.length)
+console.log(wrapper.childNodes)
+const wrappChildren = wrapper.childNodes
+for(child in wrappChildren){
+    console.log(wrappChildren[child])
+    console.log("___")
+}
+console.log(wrappChildren.length)
 
+
+console.log("________________________________")
 console.log(mostClasses(wrapper.children))
 function mostClasses(element){
     let nameArray = []
